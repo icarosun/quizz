@@ -32,7 +32,16 @@ class QuizzViewModel extends ChangeNotifier {
         question:
             "Além de gás natural, o campo de Urucu também é conhecido pela produção de qual outro recurso?",
         answers: ["Minério de ferro", "Petróleo", "Gás de xisto"],
-        correctAnswer: "Petróleo")
+        correctAnswer: "Petróleo"),
+    Question(
+        question:
+            "O gás natural pode ser utilizado para gerar qual tipo de energia?",
+        answers: [
+          "Apenas energia térmica",
+          "Apenas energia elétrica",
+          "Energia elétrica e térmica"
+        ],
+        correctAnswer: "Energia elétrica e térmica"),
   ];
 
   QuizzViewModel() {
