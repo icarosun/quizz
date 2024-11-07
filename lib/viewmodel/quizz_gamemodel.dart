@@ -75,7 +75,39 @@ class QuizzViewModel extends ChangeNotifier {
         question:
             "Qual equipamento transforma a energia solar em energia elétrica?",
         answers: ["Painel solar", "Bateria", "Turbina eólica"],
-        correctAnswer: "Painel solar")
+        correctAnswer: "Painel solar"),
+    Question(
+        question:
+            "Os municípios de Iranduba e Manacapuru são reconhecidos pela produção de telhas e tijolos. Qual é a matéria-prima utilizada na fabricação desses itens?",
+        answers: ["Areia", "Argila", "Brita"],
+        correctAnswer: "Argila"),
+    Question(
+        question:
+            "A maior mina do Estado do Amazonas está localizada em Presidente Figueiredo. Qual minério é extraído nessa mina?",
+        answers: [
+          "Cassiterita (minério de estanho)",
+          "Silvinita (minério de potássio)",
+          "Ouro"
+        ],
+        correctAnswer: "Cassiterita (minério de estanho)"),
+    Question(
+        question:
+            "Qual município do Amazonas é conhecido por suas reservas de silvinita (minério de potássio), com grande potencial para a indústria de fertilizantes?",
+        answers: ["Autazes", "Manaus", "Tefé"],
+        correctAnswer: "Autazes"),
+    Question(
+        question:
+            "A exploração mineral no Amazonas enfrenta desafios significativos. Qual é um dos principais obstáculos à mineração na região?",
+        answers: [
+          "Logística",
+          "Falta de interesse do governo",
+          "Escassez de minérios valiosos"
+        ],
+        correctAnswer: "Logística"),
+    Question(
+        question: "O Rio Madeira é conhecido pela ocorrência de qual minério?",
+        answers: ["Bauxita", "Areia", "Ouro"],
+        correctAnswer: "Ouro")
   ];
 
   QuizzViewModel() {
